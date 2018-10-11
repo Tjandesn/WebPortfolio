@@ -170,7 +170,7 @@ main {
     border: #1a87ee 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -179,7 +179,7 @@ main {
     grid-area: job3; }
   .about-info .job {
     background: #515151;
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: #1a87ee 5px solid; }
 
 .projects {
