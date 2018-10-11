@@ -148,7 +148,8 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      color: #fff; }
       main .icons a:hover {
         color: #1a87ee;
         transition: all 0.5s ease-out; }
@@ -212,22 +213,23 @@ main {
       .boxes div:hover span {
         color: #000; }
 
-.btn, .btn-dark, .btn-light {
+.btn, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
+  .btn:hover, .btn-dark:hover {
     background: #1a87ee;
     color: #000; }
 
 .btn-dark {
-  background: black;
+  background: gray;
   color: #fff; }
 
-.btn-light {
-  background: #c4c4c4;
-  color: #000; }
+.description {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: #fff; }
 
 #main-footer {
   text-align: center;

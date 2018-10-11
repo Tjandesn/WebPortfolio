@@ -57,6 +57,7 @@ main {
 
     a {
       padding: 0.4rem;
+      color: set-text-color($primary-color);
 
       &:hover {
         color: $secondary-color;
@@ -117,7 +118,7 @@ main {
 
   img {
     width: 100%;
-    border: 3px #fff solid;
+    border: 3px set-text-color($primary-color) solid;
 
     &:hover {
       opacity: 0.5;
@@ -137,7 +138,7 @@ main {
 
   div {
     font-size: 2 rem;
-    border: 3px #fff solid;
+    border: 3px set-text-color($primary-color) solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     @include easeOut;
@@ -167,14 +168,14 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  background: darken(set-text-color($primary-color), 50);
   color: #fff;
 }
 
-.btn-light {
-  @extend .btn;
-  background: lighten($primary-color, 50);
-  color: #000;
+.description {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: set-text-color($primary-color);
 }
 
 #main-footer {
