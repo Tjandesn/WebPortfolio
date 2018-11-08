@@ -53,8 +53,8 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      max-width: 250px;
-      height: auto;
+      width: 250px;
+      height: 300px;
       background: url("../img/portrait.jpg");
       border-radius: 5%;
       border: solid 3px #1a87ee; }
